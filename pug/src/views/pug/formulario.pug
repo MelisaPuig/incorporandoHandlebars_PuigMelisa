@@ -1,0 +1,14 @@
+extends layouts/main.pug
+block append content
+  a(href="/productos") Ver listado de productos 
+  form(action="/productos", method="post")
+    div(class="form-group")
+      label(for="title") Título 
+      input(id="title", class="form-control", type="text", name="title")
+    div(class="form-group")
+      label(for="price") Precio 
+      input(id="price", class="form-control", type="number", name="price")
+    div(class="form-group")
+      label(for="thumbnail") Thumbnail 
+      input(id="thumbnail", class="form-control", type="text", name="thumbnail")
+    button(class="btn btn-success mt-3 mb-5") Enviar

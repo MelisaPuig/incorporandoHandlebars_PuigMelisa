@@ -1,0 +1,3 @@
+De los tres motores de plantillas, prefiero handlebars. Entre las razones para elegir éste encuentro: es fácil de aprender a utilizar; 
+su documentación me pareció más completa y mejor explicada que las otras opciones, su sintaxis es similar al HTML 
+y es poco "invasiva"; no mezcla javascript con HTML manteniendo más clara la separación entre la vista y el controlador.
